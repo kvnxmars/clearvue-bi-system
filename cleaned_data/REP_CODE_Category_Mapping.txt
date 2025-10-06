@@ -1,0 +1,78 @@
+REP_CODE CATEGORY MAPPING
+==================================================
+
+SALES_REP:
+  Definition: Actual sales representatives (02=R, 03=BJ, 04=BM, etc.)
+  Record Count: 41704
+  Example REP_CODEs: ['02' '07' '06' '03' '04']
+
+SALES_REP_SPECIAL:
+  Definition: Special sales rep transactions
+  Record Count: 2419
+  Example REP_CODEs: ['01AME' '01LVD' '01N' '01S02' '02GAR']
+
+CONSIGNMENT:
+  Definition: Consignment sales (CONS, CONS2, CONS3, etc.)
+  Record Count: 603
+  Example REP_CODEs: ['CONS3' 'CONS2' 'CONS' 'CONS6' 'CONS7']
+
+CONSIGNMENT_ACCOUNT:
+  Definition: Consignment sales accounts (02C, 03C, etc.)
+  Record Count: 5101
+  Example REP_CODEs: ['03C' '02C' '07C' '04C' '06C']
+
+CROSS_TERRITORY_SALE:
+  Definition: Sales in other territories (02JUL=R selling JU territory, etc.)
+  Record Count: 15174
+  Example REP_CODEs: ['02JUL' '06CHE' '07JUL' '04CHE' '03MYR']
+
+DISCOUNT_CUSTOMER:
+  Definition: Discount customers (02RO*, 04MA*, etc.)
+  Record Count: 1610
+  Example REP_CODEs: ['02RO*' '06RO*' '04MA*' '07RO*' '05RA*']
+
+STOCK_MOVEMENT:
+  Definition: Stock movements/shipments
+  Record Count: 80
+  Example REP_CODEs: ['STOCK']
+
+SAMPLES:
+  Definition: Sample products
+  Record Count: 86
+  Example REP_CODEs: ['SAMPL']
+
+STANDS_DISPLAY:
+  Definition: Stands/display consignments
+  Record Count: 3
+  Example REP_CODEs: ['STAND']
+
+HOUSE_CONSIGNMENT:
+  Definition: House consignments
+  Record Count: 72
+  Example REP_CODEs: ['XX']
+
+REPAIRS:
+  Definition: Repair services
+  Record Count: 1095
+  Example REP_CODEs: ['REP']
+
+DISCOUNT_SPECIALS:
+  Definition: Special discounts
+  Record Count: 0
+  Example REP_CODEs: []
+
+PROMOTION:
+  Definition: Promotional items
+  Record Count: 1
+  Example REP_CODEs: ['PROMO']
+
+PROBLEM_ACCOUNT:
+  Definition: Problem accounts (ZZZ series)
+  Record Count: 1
+  Example REP_CODEs: ['ZZZ5']
+
+OTHER:
+  Definition: Other codes
+  Record Count: 39
+  Example REP_CODEs: ['CON3S' 'CON5S' '10' 'CAT04' 'SALE']
+

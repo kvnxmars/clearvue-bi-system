@@ -1,0 +1,19 @@
+
+SALES HEADER DATA CLEANING REPORT
+==================================
+
+Original Records: 67988
+Final Records: 67988
+
+CLEANING OPERATIONS PERFORMED:
+1. TRANS_DATE: Removed time component (was always 00:00:00)
+2. REP_CODE: Categorized into REGULAR/CONS/STOCK/SAMPL/STAND/XX/REP
+3. CUSTOMER_NUMBER: Flagged invalid entries (999999)
+4. FIN_PERIOD: Validated against TRANS_DATE
+5. DOC_NUMBER: Checked for duplicates
+6. TRANSTYPE_CODE: Ensured numeric format
+
+DATA QUALITY METRICS:
+- REP_CODE Categories: {'REGULAR': np.int64(66049), 'REP': np.int64(1095), 'CONS': np.int64(603), 'SAMPL': np.int64(86), 'STOCK': np.int64(80), 'XX': np.int64(72), 'STAND': np.int64(3)}
+- Invalid Customer Numbers: 599
+- Missing Values: {'DOC_NUMBER': 0, 'TRANSTYPE_CODE': 0, 'REP_CODE': 0, 'CUSTOMER_NUMBER': 0, 'TRANS_DATE': 0, 'FIN_PERIOD': 0, 'REP_CATEGORY': 0, 'REP_BASE_CODE': 1939, 'CUSTOMER_VALID': 0}

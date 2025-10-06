@@ -1,0 +1,58 @@
+
+PRODUCT CATEGORIES CLEANING SUMMARY
+====================================
+
+DATE: 2025-10-06 20:24:31
+ORIGINAL FILE: Product Categories.xlsx
+CLEANED FILE: Product_Categories_Cleaned.xlsx
+
+CLEANING OPERATIONS PERFORMED:
+-------------------------------
+1. Standardized inconsistent product descriptions
+2. Grouped year-based entries into meaningful categories
+3. Created a new 'PRODCAT_DESC_CLEANED' column
+
+SPECIFIC CLEANING RULES APPLIED:
+--------------------------------
+- Kept as-is: Parts, Products, Packaging, PROMOTIONAL GOODS, SAMPLES, VIP, Unknown, LAST OF RANGE
+- Administrative: legal costs, Admin fees postage / courier -> "Administrative"
+- Sales: SALE -> "Sale Items"
+- Discontinued: DISCONTINUED -> "Discontinued"
+- Year patterns:
+  * Specific years (2018, 2019, etc.) -> "Specific Year Models"
+  * Future ranges (2017+, 2000+) -> "Future Year Models"
+  * Transition periods (01/02, 02/03) -> "Transition Year Models"
+
+RESULTS SUMMARY:
+----------------
+Total records processed: 60
+
+Cleaned category distribution:
+  - Specific Year Models: 16 records
+  - Products: 11 records
+  - Future Year Models: 8 records
+  - Parts: 7 records
+  - Sale Items: 5 records
+  - Other: 3 records
+  - Administrative: 2 records
+  - PROMOTIONAL GOODS: 1 records
+  - Packaging: 1 records
+  - LAST OF RANGE: 1 records
+  - SAMPLES: 1 records
+  - Unknown: 1 records
+  - VIP: 1 records
+  - Transition Year Models: 1 records
+  - Discontinued: 1 records
+
+BENEFITS OF CLEANING:
+---------------------
+- Reduced 20+ messy descriptions to 14 standardized categories
+- Improved consistency for reporting and analysis
+- Better grouping of year-based product lines
+- Clearer categorization of administrative and special items
+
+NEXT STEPS:
+-----------
+- Use PRODCAT_DESC_CLEANED for all reporting and analysis
+- Maintain original PRODCAT_DESC for reference
+- Apply similar cleaning to related product tables if needed

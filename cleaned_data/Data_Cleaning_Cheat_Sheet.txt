@@ -1,0 +1,19 @@
+QUICK REFERENCE: Sales Data Categories
+==================================================
+
+MAIN SALES REPS:
+02 = R       04 = BM      06 = DA
+03 = BJ      05 = RL      07 = LA
+01 = HEAD OFFICE
+
+KEY CATEGORIES FOR ANALYSIS:
+• SALES_REP           - Actual sales (use for performance)
+• CROSS_TERRITORY_SALE - Sales outside normal territory
+• CONSIGNMENT         - Products placed with customers
+• SAMPLES             - Free samples (exclude from revenue)
+• STOCK_MOVEMENT      - Internal transfers (exclude from revenue)
+
+FILTERING TIPS:
+For sales reports: Use REP_CATEGORY = 'SALES_REP'
+For rep performance: Use SALES_REP_ID field
+For territory analysis: Use TERRITORY field
