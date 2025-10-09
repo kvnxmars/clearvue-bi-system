@@ -1,5 +1,3 @@
-# C:\clearvue-bi-system\tests\test_transform_supplier.py (COMPLETE & CORRECT)
-
 import unittest
 import pandas as pd
 from datetime import datetime
