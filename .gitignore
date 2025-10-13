@@ -1,0 +1,94 @@
+# Byte-compiled / optimized / DLL files
+.gitignore
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.vscode
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data folders (raw, clean, processed)
+raw_data/
+processed_data/
+data/
+Data/
+
+# Output files
+*.log
+*.out
+*.tmp
+
+# Excel and CSV files
+*.xlsx
+*.xls
+*.csv
+
+# Test cache
+tests/__pycache__/
+*.pytest_cache/
+.cache/
+
+# VSCode settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+__pypackages__/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# GitHub Copilot
+copilot-logs/
+
+# Misc
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Ignore any future folders named 'output', 'logs', or 'backup'
+output/
+logs/
+backup/
