@@ -1,0 +1,35 @@
+{
+  "summary_date": "2025-10-13T11:53:38.671123",
+  "total_records": 67988,
+  "records_by_category": {
+    "SALES_REP": 41704,
+    "CROSS_TERRITORY_SALE": 15174,
+    "CONSIGNMENT_ACCOUNT": 5101,
+    "SALES_REP_SPECIAL": 2419,
+    "DISCOUNT_CUSTOMER": 1610,
+    "REPAIRS": 1095,
+    "CONSIGNMENT": 603,
+    "SAMPLES": 86,
+    "STOCK_MOVEMENT": 80,
+    "HOUSE_CONSIGNMENT": 72,
+    "OTHER": 39,
+    "STANDS_DISPLAY": 3,
+    "PROBLEM_ACCOUNT": 1,
+    "PROMOTION": 1
+  },
+  "records_by_sales_rep": {
+    "2.0": 19025,
+    "5.0": 13979,
+    "4.0": 12327,
+    "1.0": 9564,
+    "3.0": 7553,
+    "6.0": 1947,
+    "7.0": 1613,
+    "10.0": 4
+  },
+  "date_range": {
+    "min_date": "2015-03-01",
+    "max_date": "2020-01-31"
+  },
+  "data_quality": {
+    "valid_customers": 

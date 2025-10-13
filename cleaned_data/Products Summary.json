@@ -1,0 +1,27 @@
+{
+  "report_name": "Products Cleaning Summary",
+  "timestamp": "2025-10-13T11:40:28.044515",
+  "records": {
+    "before": 7992,
+    "after": 7992,
+    "removed": 0
+  },
+  "cleaning_operations": [
+    "Standardized column names",
+    "Removed 0 duplicates",
+    "Removed 1 empty columns",
+    "Filled 15983 missing values"
+  ],
+  "quality_metrics": {
+    "null_values": {
+      "before": 15983,
+      "after": 0
+    },
+    "duplicates": {
+      "before": 0,
+      "after": 0
+    }
+  },
+  "status": "cleaning_completed",
+  "ready_for_analysis": true
+}
