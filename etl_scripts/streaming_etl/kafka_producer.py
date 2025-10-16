@@ -19,4 +19,30 @@ while True:
     }
     producer.send('payments', payment)
     print("Sent:", payment)
-    time.sleep(2)
+    time.sleep(2) 
+
+"""import json
+import time
+from kafka import KafkaProducer
+from pymongo import MongoClient
+
+mongo_client = MongoClient("") #mongo uri required  
+db = mongo_client[""] # db required 
+collection = db["clean_sales_data"] #required 
+
+producer = KafkaProducer(
+    bootstrap_servers="localhost:9092",
+    value_serializer=lambda v: json.dumps(v).encode('utf-8')
+)
+
+for doc in collection.find():
+    doc["_id"] = str(doc["_id"])  # Convert ObjectId for JSON serialization
+    producer.send("clearvue_stream", value=doc)
+    print(f"Sent: {doc}")
+    time.sleep(1)  # Simulate real-time streaming
+
+producer.close()
+mongo_client.close() """
+
+
+
