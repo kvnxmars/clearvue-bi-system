@@ -1,101 +1,101 @@
-REP_CODE,REP_DESC,COMM_METHOD,COMMISSION,REP_DESC_CLEAN,REP_GROUP
-01,HEAD OFFICE,Sales,0.0,HEAD OFFICE,Internal Sales
-010,BA ALLISON,Sales,0.5,BA,Sales Rep
-010C,BA CONSIGNMENT SALES ACC,Sales,0.5,BA,Sales Rep
-01BJ,CAT CUSTOMER ONLY -ex BJ,Sales,0.5,CATALOGUE,Channel: Catalogue
-01BM,CAT CUSTOMER ONLY ex BM,Sales,0.5,CATALOGUE,Channel: Catalogue
-01C,CM,Sales,0.5,CATALOGUE,Channel: Catalogue
-01CA2,CAT CUSTOMER  ONLY- ex R,Sales,0.5,CATALOGUE,Channel: Catalogue
-01CAT,CAT CUSTOMERS ONLY- ex RL,Sales,0.5,CATALOGUE,Channel: Catalogue
-01CHE,CH,Sales,0.5,CH,Sales Rep
-01DIS,DISC.  FOR WIFES/FRIENDS,Sales,0.5,,Unclassified_Missing_Data
-01EDN,EM,Sales,0.5,EM,Sales Rep
-01EXP,EXPORTS,Gross Profit,0.5,EXPORTS,Channel: Export
-01JUL,JU,Sales,0.5,JU,Sales Rep
-01LC,LL Consignm,Sales,0.5,CONSIGNMENT,Channel: Consignment
-01LVD,LL,Sales,0.5,CONSIGNMENT,Channel: Consignment
-01S01,SALE HEAD OFFICE,Sales,0.5,SALE,Unclassified
-01S02,SALE R,Sales,0.5,SALE,Unclassified
-01S03,SALE BJ,Sales,0.5,SALE,Unclassified
-01S04,SALE BM,Sales,0.5,SALE,Unclassified
-01S05,SALE RL,Sales,0.5,SALE,Unclassified
-01S06,SALE DA,Sales,0.5,SALE,Unclassified
-01S07,LA SALE GOODS,Sales,0.5,SALE,Unclassified
-01SCG,SALE CH,Sales,0.5,SALE,Unclassified
-01SJM,SALE JU,Sales,0.5,SALE,Unclassified
-01SMC,SALE EM,Sales,0.5,SALE,Unclassified
-01STU,HEAD OFFICE'S CUSTOMER DEPT STORE,Sales,0.5,HEAD OFFICE,Internal Sales
-01TOP,Head Office-Top Ten Dept stores,Sales,0.5,HEAD OFFICE,Internal Sales
-01VP,VP,Sales,0.5,VP,Sales Rep
-01WHO,WHOLESALERS,Sales,0.5,WHOLESALERS,Channel: Wholesaler
-02,R,Sales,0.5,R,Sales Rep
-02C,R CONSIGNMENT SALES ACC,Sales,0.5,R,Sales Rep
-02CHE,R'S CUSTOMER - CH'S SALE,Sales,0.5,R,Sales Rep
-02GAR,DR,Sales,0.5,DR,Sales Rep
-02JUL,R'S CUSTOMER - JU'S SALE,Sales,0.5,R,Sales Rep
-02MYR,R'S CUTOMER -EM'S SALE,Sales,0.5,R,Sales Rep
-02RO*,R  discount customer,Sales,0.5,R,Sales Rep
-02ROS,R's customer - RO's sale,Sales,0.5,R,Sales Rep
-03,BJ,Sales,0.5,BJ,Sales Rep
-03BJ*,BJ discount customer,Sales,0.5,BJ,Sales Rep
-03C,BJ CONSIGNMENTS,Sales,0.5,BJ,Sales Rep
-03CHE,BJ'S CUSTOMER - CH'S SALE,Sales,0.5,BJ,Sales Rep
-03JUL,BJ'S CUSTOMER - JU'S SALE,Sales,0.5,BJ,Sales Rep
-03MYR,BJ'S CUSTOMER- EM'S SALE,Sales,0.5,BJ,Sales Rep
-03PRO,BJ'S CUSTOMER- PROBLEM ACC,Sales,0.5,BJ,Sales Rep
-03SGW,BJ Exhibition,Sales,0.5,BJ,Sales Rep
-04,BM,Sales,0.5,BM,Sales Rep
-04C,BM CONSIGNMENT SALES ACC,Sales,0.5,BM,Sales Rep
-04CHE,BM'S CUSTOMER - CH'S SAL,Sales,0.5,BM,Sales Rep
-04GAR,BM FREE STATE + LESOTHO,Sales,0.5,BM,Sales Rep
-04JAS,GR,Sales,0.5,GR,Sales Rep
-04JUL,BM'S CUSTOMER - JU'S SALE,Sales,0.5,BM,Sales Rep
-04MA*,BM discount customer,Sales,0.5,BM,Sales Rep
-04MYR,BM'S CUSTOMER-EM'S SALE,Sales,0.5,BM,Sales Rep
-05,RL,Sales,0.5,RL,Sales Rep
-05C,RL CONSIGNMENT SALES ACC,Sales,0.5,RL,Sales Rep
-05CHE,RL'S CUSTOMER - CH SALE,Sales,0.5,RL,Sales Rep
-05JUL,RL'S CUSTOMER - JU'S SALE,Sales,0.5,RL,Sales Rep
-05MYR,HO'S CUSTOMER-EM'S SALE,Sales,0.5,HEAD OFFICE,Internal Sales
-05RA*,HO discount customer,Sales,0.5,HEAD OFFICE,Internal Sales
-05SS,ML,Sales,0.0,ML,Sales Rep
-06,DA,Sales,0.0,DA,Sales Rep
-06C,DA CONSIGNMENT,Sales,0.5,DA,Sales Rep
-06CHE,DA CUSTOMER VP'S SAL,Sales,0.0,DA,Sales Rep
-06EDN,DA's Customer - EM's sal,Sales,0.5,DA,Sales Rep
-06JUL,DA CUSTOMER JU'S SALE,Sales,0.5,DA,Sales Rep
-06RO*,DA discount customer,Sales,0.5,DA,Sales Rep
-07,LA,Sales,0.0,LA,Sales Rep
-07C,LA Consignments SalesAcc,Sales,0.5,LA,Sales Rep
-07CHE,LA CUST-VP'S SALE,Sales,0.5,LA,Sales Rep
-07EDN,LA CUST-EM SALE,Sales,0.5,LA,Sales Rep
-07GR,07-GROUP-LA,Sales,0.5,LA,Sales Rep
-07JUL,LA CUSTJU SALE,Sales,0.0,LA,Sales Rep
-07RO*,LA Discount Customers,Sales,0.5,LA,Sales Rep
-10,BA ALLISON,Sales,0.0,BA,Sales Rep
-10C,BA CONSIGNMENT SALES ACC,Sales,0.0,BA,Sales Rep
-CAT03,CATALOGUE CUSTOMER ONLY - BJ,Sales,0.5,CATALOGUE,Channel: Catalogue
-CAT04,CATALOGUE CUSTOMER ONLY - BM,Sales,0.5,CATALOGUE,Channel: Catalogue
-CAT06,CATALOGUE CUSTOMER ONLY - RO,Sales,0.5,CATALOGUE,Channel: Catalogue
-CAT07,CATALOGUE CUSTOMER-CH,Sales,0.5,CATALOGUE,Channel: Catalogue
-CITC,C-  ITC,Sales,0.5,,Unclassified_Missing_Data
-CON10,CONSIGNMENT BA,Sales,0.5,BA_CONSIGNMENT,Channel: Consignment
-CON2S,CONSIGNMENT DE/STAND,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CON3S,CONSIGNMENT BJ/STAND,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CON4S,CONSIGNMENT BM/STAND,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CON5S,CONSIGNMENT HO/STAND,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CON6S,CONSIGNMENT DA/STAND,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CON7S,Consignment LA / Stand,Sales,0.5,CONSIGNMENT,Channel: Consignment
-CONS,CONSIGNMENTS HEAD OFFICE,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CONS2,CONSIGNMENTS DE,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CONS3,CONSIGNMENTS BJ,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CONS4,CONSIGNMENTS BM,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CONS5,CONSIGNMENTS HO,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CONS6,CONSIGNMENTS DA,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment
-CONS7,Consignments LA,Sales,0.5,CONSIGNMENT,Channel: Consignment
-STAN2,STANDS- 30 PC CONSIGNMENT,Gross Profit,0.0,CONSIGNMENT_STANDS,Channel: Consignment
-STAN3,STANDS-CONSIGNMENT,Gross Profit,0.0,CONSIGNMENT_STANDS,Channel: Consignment
-STAN4,STANDS-CONSIGNMENT,Gross Profit,0.0,CONSIGNMENT_STANDS,Channel: Consignment
-STAND,STAND-60PC CONSIGNMENT,Gross Profit,0.0,CONSIGNMENT_STANDS,Channel: Consignment
-XX,HOUSE CONSIGNMENTS,Gross Profit,0.0,CONSIGNMENT,Channel: Consignment
-XXC,SH,Gross Profit,0.0,SH,Sales Rep
+REP_CODE,REP_DESC,COMM_METHOD,COMMISSION,REP_DESC_CLEAN,REP_GROUP,PARAMETER,PARAMETER_GROUP
+01,HEAD OFFICE,Sales,0.0,HEAD OFFICE,Internal Sales,Unknown,Unknown
+010,BA ALLISON,Sales,0.5,BA,Sales Rep,Unknown,Unknown
+010C,BA CONSIGNMENT SALES ACC,Sales,0.5,BA,Sales Rep,Unknown,Unknown
+01BJ,CAT CUSTOMER ONLY -ex BJ,Sales,0.5,CATALOGUE,Channel: Catalogue,Unknown,Unknown
+01BM,CAT CUSTOMER ONLY ex BM,Sales,0.5,CATALOGUE,Channel: Catalogue,Unknown,Unknown
+01C,CM,Sales,0.5,CATALOGUE,Channel: Catalogue,Unknown,Unknown
+01CA2,CAT CUSTOMER  ONLY- ex R,Sales,0.5,CATALOGUE,Channel: Catalogue,Unknown,Unknown
+01CAT,CAT CUSTOMERS ONLY- ex RL,Sales,0.5,CATALOGUE,Channel: Catalogue,Unknown,Unknown
+01CHE,CH,Sales,0.5,CH,Sales Rep,Unknown,Unknown
+01DIS,DISC.  FOR WIFES/FRIENDS,Sales,0.5,Unknown,Unclassified_Missing_Data,Unknown,Unknown
+01EDN,EM,Sales,0.5,EM,Sales Rep,Unknown,Unknown
+01EXP,EXPORTS,Gross Profit,0.5,EXPORTS,Channel: Export,Unknown,Unknown
+01JUL,JU,Sales,0.5,JU,Sales Rep,Unknown,Unknown
+01LC,LL Consignm,Sales,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+01LVD,LL,Sales,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+01S01,SALE HEAD OFFICE,Sales,0.5,SALE,Unclassified,Unknown,Unknown
+01S02,SALE R,Sales,0.5,SALE,Unclassified,Unknown,Unknown
+01S03,SALE BJ,Sales,0.5,SALE,Unclassified,Unknown,Unknown
+01S04,SALE BM,Sales,0.5,SALE,Unclassified,Unknown,Unknown
+01S05,SALE RL,Sales,0.5,SALE,Unclassified,Unknown,Unknown
+01S06,SALE DA,Sales,0.5,SALE,Unclassified,Unknown,Unknown
+01S07,LA SALE GOODS,Sales,0.5,SALE,Unclassified,Unknown,Unknown
+01SCG,SALE CH,Sales,0.5,SALE,Unclassified,Unknown,Unknown
+01SJM,SALE JU,Sales,0.5,SALE,Unclassified,Unknown,Unknown
+01SMC,SALE EM,Sales,0.5,SALE,Unclassified,Unknown,Unknown
+01STU,HEAD OFFICE'S CUSTOMER DEPT STORE,Sales,0.5,HEAD OFFICE,Internal Sales,Unknown,Unknown
+01TOP,Head Office-Top Ten Dept stores,Sales,0.5,HEAD OFFICE,Internal Sales,Unknown,Unknown
+01VP,VP,Sales,0.5,VP,Sales Rep,Unknown,Unknown
+01WHO,WHOLESALERS,Sales,0.5,WHOLESALERS,Channel: Wholesaler,Unknown,Unknown
+02,R,Sales,0.5,R,Sales Rep,Unknown,Unknown
+02C,R CONSIGNMENT SALES ACC,Sales,0.5,R,Sales Rep,Unknown,Unknown
+02CHE,R'S CUSTOMER - CH'S SALE,Sales,0.5,R,Sales Rep,Unknown,Unknown
+02GAR,DR,Sales,0.5,DR,Sales Rep,Unknown,Unknown
+02JUL,R'S CUSTOMER - JU'S SALE,Sales,0.5,R,Sales Rep,Unknown,Unknown
+02MYR,R'S CUTOMER -EM'S SALE,Sales,0.5,R,Sales Rep,Unknown,Unknown
+02RO*,R  discount customer,Sales,0.5,R,Sales Rep,Unknown,Unknown
+02ROS,R's customer - RO's sale,Sales,0.5,R,Sales Rep,Unknown,Unknown
+03,BJ,Sales,0.5,BJ,Sales Rep,Unknown,Unknown
+03BJ*,BJ discount customer,Sales,0.5,BJ,Sales Rep,Unknown,Unknown
+03C,BJ CONSIGNMENTS,Sales,0.5,BJ,Sales Rep,Unknown,Unknown
+03CHE,BJ'S CUSTOMER - CH'S SALE,Sales,0.5,BJ,Sales Rep,Unknown,Unknown
+03JUL,BJ'S CUSTOMER - JU'S SALE,Sales,0.5,BJ,Sales Rep,Unknown,Unknown
+03MYR,BJ'S CUSTOMER- EM'S SALE,Sales,0.5,BJ,Sales Rep,Unknown,Unknown
+03PRO,BJ'S CUSTOMER- PROBLEM ACC,Sales,0.5,BJ,Sales Rep,Unknown,Unknown
+03SGW,BJ Exhibition,Sales,0.5,BJ,Sales Rep,Unknown,Unknown
+04,BM,Sales,0.5,BM,Sales Rep,Unknown,Unknown
+04C,BM CONSIGNMENT SALES ACC,Sales,0.5,BM,Sales Rep,Unknown,Unknown
+04CHE,BM'S CUSTOMER - CH'S SAL,Sales,0.5,BM,Sales Rep,Unknown,Unknown
+04GAR,BM FREE STATE + LESOTHO,Sales,0.5,BM,Sales Rep,Unknown,Unknown
+04JAS,GR,Sales,0.5,GR,Sales Rep,Unknown,Unknown
+04JUL,BM'S CUSTOMER - JU'S SALE,Sales,0.5,BM,Sales Rep,Unknown,Unknown
+04MA*,BM discount customer,Sales,0.5,BM,Sales Rep,Unknown,Unknown
+04MYR,BM'S CUSTOMER-EM'S SALE,Sales,0.5,BM,Sales Rep,Unknown,Unknown
+05,RL,Sales,0.5,RL,Sales Rep,Unknown,Unknown
+05C,RL CONSIGNMENT SALES ACC,Sales,0.5,RL,Sales Rep,Unknown,Unknown
+05CHE,RL'S CUSTOMER - CH SALE,Sales,0.5,RL,Sales Rep,Unknown,Unknown
+05JUL,RL'S CUSTOMER - JU'S SALE,Sales,0.5,RL,Sales Rep,Unknown,Unknown
+05MYR,HO'S CUSTOMER-EM'S SALE,Sales,0.5,HEAD OFFICE,Internal Sales,Unknown,Unknown
+05RA*,HO discount customer,Sales,0.5,HEAD OFFICE,Internal Sales,Unknown,Unknown
+05SS,ML,Sales,0.0,ML,Sales Rep,Unknown,Unknown
+06,DA,Sales,0.0,DA,Sales Rep,Unknown,Unknown
+06C,DA CONSIGNMENT,Sales,0.5,DA,Sales Rep,Unknown,Unknown
+06CHE,DA CUSTOMER VP'S SAL,Sales,0.0,DA,Sales Rep,Unknown,Unknown
+06EDN,DA's Customer - EM's sal,Sales,0.5,DA,Sales Rep,Unknown,Unknown
+06JUL,DA CUSTOMER JU'S SALE,Sales,0.5,DA,Sales Rep,Unknown,Unknown
+06RO*,DA discount customer,Sales,0.5,DA,Sales Rep,Unknown,Unknown
+07,LA,Sales,0.0,LA,Sales Rep,Unknown,Unknown
+07C,LA Consignments SalesAcc,Sales,0.5,LA,Sales Rep,Unknown,Unknown
+07CHE,LA CUST-VP'S SALE,Sales,0.5,LA,Sales Rep,Unknown,Unknown
+07EDN,LA CUST-EM SALE,Sales,0.5,LA,Sales Rep,Unknown,Unknown
+07GR,07-GROUP-LA,Sales,0.5,LA,Sales Rep,Unknown,Unknown
+07JUL,LA CUSTJU SALE,Sales,0.0,LA,Sales Rep,Unknown,Unknown
+07RO*,LA Discount Customers,Sales,0.5,LA,Sales Rep,Unknown,Unknown
+10,BA ALLISON,Sales,0.0,BA,Sales Rep,Unknown,Unknown
+10C,BA CONSIGNMENT SALES ACC,Sales,0.0,BA,Sales Rep,Unknown,Unknown
+CAT03,CATALOGUE CUSTOMER ONLY - BJ,Sales,0.5,CATALOGUE,Channel: Catalogue,Unknown,Unknown
+CAT04,CATALOGUE CUSTOMER ONLY - BM,Sales,0.5,CATALOGUE,Channel: Catalogue,Unknown,Unknown
+CAT06,CATALOGUE CUSTOMER ONLY - RO,Sales,0.5,CATALOGUE,Channel: Catalogue,Unknown,Unknown
+CAT07,CATALOGUE CUSTOMER-CH,Sales,0.5,CATALOGUE,Channel: Catalogue,Unknown,Unknown
+CITC,C-  ITC,Sales,0.5,Unknown,Unclassified_Missing_Data,Unknown,Unknown
+CON10,CONSIGNMENT BA,Sales,0.5,BA_CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CON2S,CONSIGNMENT DE/STAND,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CON3S,CONSIGNMENT BJ/STAND,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CON4S,CONSIGNMENT BM/STAND,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CON5S,CONSIGNMENT HO/STAND,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CON6S,CONSIGNMENT DA/STAND,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CON7S,Consignment LA / Stand,Sales,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CONS,CONSIGNMENTS HEAD OFFICE,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CONS2,CONSIGNMENTS DE,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CONS3,CONSIGNMENTS BJ,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CONS4,CONSIGNMENTS BM,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CONS5,CONSIGNMENTS HO,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CONS6,CONSIGNMENTS DA,Gross Profit,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+CONS7,Consignments LA,Sales,0.5,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+STAN2,STANDS- 30 PC CONSIGNMENT,Gross Profit,0.0,CONSIGNMENT_STANDS,Channel: Consignment,Unknown,Unknown
+STAN3,STANDS-CONSIGNMENT,Gross Profit,0.0,CONSIGNMENT_STANDS,Channel: Consignment,Unknown,Unknown
+STAN4,STANDS-CONSIGNMENT,Gross Profit,0.0,CONSIGNMENT_STANDS,Channel: Consignment,Unknown,Unknown
+STAND,STAND-60PC CONSIGNMENT,Gross Profit,0.0,CONSIGNMENT_STANDS,Channel: Consignment,Unknown,Unknown
+XX,HOUSE CONSIGNMENTS,Gross Profit,0.0,CONSIGNMENT,Channel: Consignment,Unknown,Unknown
+XXC,SH,Gross Profit,0.0,SH,Sales Rep,Unknown,Unknown
