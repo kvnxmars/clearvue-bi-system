@@ -1,48 +1,36 @@
 from kafka import KafkaProducer
+from pymongo import MongoClient
 import json
+from bson import ObjectId
+from datetime import datetime
 import time
-import random
+
+mongo_uri = "mongodb+srv://powerbi:pbidb4321@cluster0.vlaxs0o.mongodb.net/"
+client = MongoClient(mongo_uri)
+db = client["clearvue_db"]               
+collection = db["purchases"]  
+
+def json_serializer(obj):
+    if isinstance(obj, datetime):
+        return obj.isoformat()  
+    if isinstance(obj, ObjectId):
+        return str(obj)         
+    raise TypeError(f"Type {type(obj)} not serializable")
 
 producer = KafkaProducer(
     bootstrap_servers=['localhost:9092'],
-    value_serializer=lambda v: json.dumps(v).encode('utf-8')
+    value_serializer=lambda v: json.dumps(v, default=json_serializer).encode('utf-8')
 )
 
-print("Producer started... sending payment transactions.")
-
-while True:
-    payment = {
-        "transaction_id": random.randint(1000, 9999),
-        "user_id": random.randint(1, 100),
-        "amount": round(random.uniform(10.0, 1000.0), 2),
-        "status": random.choice(["SUCCESS", "FAILED", "PENDING"])
-    }
-    producer.send('payments', payment)
-    print("Sent:", payment)
-    time.sleep(2) 
-
-"""import json
-import time
-from kafka import KafkaProducer
-from pymongo import MongoClient
-
-mongo_client = MongoClient("") #mongo uri required  
-db = mongo_client[""] # db required 
-collection = db["clean_sales_data"] #required 
-
-producer = KafkaProducer(
-    bootstrap_servers="localhost:9092",
-    value_serializer=lambda v: json.dumps(v).encode('utf-8')
-)
+print("Producer started — streaming MongoDB data to Kafka...")
 
 for doc in collection.find():
-    doc["_id"] = str(doc["_id"])  # Convert ObjectId for JSON serialization
     producer.send("clearvue_stream", value=doc)
-    print(f"Sent: {doc}")
-    time.sleep(1)  # Simulate real-time streaming
+    print(f"Sent document: {doc['_id']}")
+    time.sleep(1)  # optional, adds small delay for readability
 
-producer.close()
-mongo_client.close() """
+producer.flush()
+print("All MongoDB documents sent successfully.")
 
 
 

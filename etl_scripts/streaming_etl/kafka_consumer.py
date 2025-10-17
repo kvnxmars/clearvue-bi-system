@@ -1,38 +1,57 @@
-from kafka import KafkaConsumer
+import pymongo
+from pymongo import MongoClient
 import json
 
-consumer = KafkaConsumer(
-    'payments',
-    bootstrap_servers=['localhost:9092'],
-    value_deserializer=lambda m: json.loads(m.decode('utf-8'))
-)
+# MongoDB connection details
+MONGODB_URI = "mongodb+srv://powerbi:pbidb4321@cluster0.vlaxs0o.mongodb.net/"
+DATABASE_NAME = "clearvue_bi_system"
+COLLECTION_NAME = "finance"
 
-print("Consumer started... listening for payment transactions.")
+def connect_to_mongodb():
+    """Connect to MongoDB and return client and collection"""
+    try:
+        client = MongoClient(MONGODB_URI)
+        client.admin.command('ping')
+        print("Successfully connected to MongoDB!")
+        
+        db = client[DATABASE_NAME]
+        collection = db[COLLECTION_NAME]
+        
+        return client, collection
+    except Exception as e:
+        print(f"Connection failed: {e}")
+        return None, None
 
-for message in consumer:
-    print("Received:", message.value)
+def get_mongodb_stats(collection):
+    """Get database statistics"""
+    try:
+        count = collection.count_documents({})
+        print(f"Total documents in collection: {count}")
+        
+        # Sample a document to show structure
+        sample = collection.find_one()
+        if sample:
+            print("Sample document structure:")
+            print(json.dumps(sample, indent=2, default=str))
+        return count
+    except Exception as e:
+        print(f"Could not get stats: {e}")
+        return 0
 
-"""import json
-from kafka import KafkaConsumer
-from pymongo import MongoClient
+# Main execution
+print("=== MONGODB STREAMING TEST ===")
+print("🔌 Connecting to MongoDB...")
 
-mongo_client = MongoClient("") #mongo uri required
-db = mongo_client[""] #required
-bi_collection = db[""] #required 
+# Connect to MongoDB
+client, collection = connect_to_mongodb()
 
-consumer = KafkaConsumer(
-    "clearvue_stream",
-    bootstrap_servers="localhost:9092",
-    auto_offset_reset="earliest",
-    enable_auto_commit=True,
-    group_id="clearvue-bi-group",
-    value_deserializer=lambda x: json.loads(x.decode("utf-8"))
-)
+if client is not None and collection is not None:
+    # Get current database stats
+    print("\n--- Current Database Status ---")
+    get_mongodb_stats(collection)
+    
+    client.close()
 
-print("Listening for messages...")
 
-for message in consumer:
-    data = message.value
-    print(f"Received: {data}")
-    bi_collection.insert_one(data) """
 
+        
